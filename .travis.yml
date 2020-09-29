@@ -1,9 +1,5 @@
 language: ruby
 
-script:
-#  - bundle exec rspec spec
-#  - bundle exec cucumber
-
 branches:
   only:
   - master
