@@ -1,0 +1,2955 @@
+Started GET "/" for ::1 at 2020-09-28 17:24:32 -0300
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.3) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.3) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/apple-touch-icon-precomposed.png" for ::1 at 2020-09-28 17:24:33 -0300
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.3) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.3) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/apple-touch-icon.png" for ::1 at 2020-09-28 17:24:33 -0300
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.3) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.3) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200928202309)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200928202309"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-09-28 20:24:50.272300"], ["updated_at", "2020-09-28 20:24:50.272300"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-09-28 17:24:58 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 25.0ms | Allocations: 295)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 1538)
+
+
+Started GET "/" for ::1 at 2020-09-28 17:30:01 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 16.0ms | Allocations: 295)
+Completed 200 OK in 28ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 1538)
+
+
+Started GET "/" for ::1 at 2020-09-28 17:30:46 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 26.5ms | Allocations: 184)
+Completed 200 OK in 32ms (Views: 28.3ms | ActiveRecord: 0.0ms | Allocations: 1687)
+
+
+Started GET "//users" for ::1 at 2020-09-28 17:30:47 -0300
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "//users" for ::1 at 2020-09-28 17:30:50 -0300
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 116)
+
+
+Started GET "//user" for ::1 at 2020-09-28 17:30:51 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2020-09-28 17:30:51 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "//users" for ::1 at 2020-09-28 17:30:55 -0300
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "//users" for ::1 at 2020-09-28 17:31:11 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 0.7ms | Allocations: 1965)
+
+
+Started GET "//user" for ::1 at 2020-09-28 17:31:15 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-28 17:31:29 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.5ms | Allocations: 8)
+Completed 200 OK in 19ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 637)
+
+
+Started POST "/users" for ::1 at 2020-09-28 17:31:50 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"test@test.ca\",\n    \"password\": \"1234\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 679)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 17:32:11 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"test@test.ca\",\n    \"password\": \"1234\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 17:32:20 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"test@test.ca\",\n    \"password\": \"1234\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 654)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 17:32:26 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"test@test.ca\",\n    \"password\": \"1234\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 653)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/" for ::1 at 2020-09-28 17:32:31 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 7)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 239)
+
+
+Started GET "/" for ::1 at 2020-09-28 17:32:33 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/fabionogueiradealmeida/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 237)
+
+
+Started GET "/users" for ::1 at 2020-09-28 17:32:35 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms | Allocations: 1294)
+
+
+Started POST "/users" for ::1 at 2020-09-28 17:32:45 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"test@test.ca\",\n    \"password\": \"1234\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/users" for ::1 at 2020-09-28 17:33:24 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 2.3ms | ActiveRecord: 1.6ms | Allocations: 1821)
+
+
+Started GET "/users" for ::1 at 2020-09-28 17:33:26 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 795)
+
+
+Started POST "/users" for ::1 at 2020-09-28 17:33:27 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"test@test.ca\",\n    \"password\": \"1234\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 17:33:37 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 17:33:52 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 17:33:53 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 17:33:54 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/users" for ::1 at 2020-09-28 17:33:56 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 157)
+
+
+Started POST "/users" for ::1 at 2020-09-28 17:33:58 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 638)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 17:34:11 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users/login" for ::1 at 2020-09-28 17:34:44 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 17:34:45 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started GET "/login" for ::1 at 2020-09-28 17:35:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users//login" for ::1 at 2020-09-28 17:35:10 -0300
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"login"}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/users/login" for ::1 at 2020-09-28 17:35:11 -0300
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"login"}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 116)
+
+
+Started POST "/users/login" for ::1 at 2020-09-28 17:35:16 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/login" for ::1 at 2020-09-28 17:35:21 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/login" for ::1 at 2020-09-28 17:35:22 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/login" for ::1 at 2020-09-28 17:35:22 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/login" for ::1 at 2020-09-28 17:35:22 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/login" for ::1 at 2020-09-28 17:35:22 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/login" for ::1 at 2020-09-28 17:35:22 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/login" for ::1 at 2020-09-28 17:35:23 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/users" for ::1 at 2020-09-28 17:35:26 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 17:35:27 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users/login" for ::1 at 2020-09-28 17:35:37 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/login" for ::1 at 2020-09-28 17:35:43 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/users/login" for ::1 at 2020-09-28 17:35:56 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:11:56 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 8ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:11:58 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:11:59 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:00 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:00 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:00 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:01 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:01 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:01 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:01 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:01 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:01 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:02 -0300
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a\",\n    \"password\": \"a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:10 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a2\",\n    \"password\": \"2a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users/login" for ::1 at 2020-09-28 18:12:36 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#login as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a2\",\n    \"password\": \"2a\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1160)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/application_controller.rb:6:in `login'
+Started POST "/users" for ::1 at 2020-09-28 18:12:48 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 422 Unprocessable Entity in 116ms (Views: 0.3ms | ActiveRecord: 2.0ms | Allocations: 9281)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:13:05 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:13:11 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:13:21 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 422 Unprocessable Entity in 15ms (Views: 0.2ms | ActiveRecord: 1.2ms | Allocations: 6846)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:13:37 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 10ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:14:03 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:14:22 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:14:25 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 42)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:14:35 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:15:17 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 652)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/users_controller.rb:20:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:15:23 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 605)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/users_controller.rb:20:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:15:33 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:15:48 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:18:05 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:61:in `user_params'
+app/controllers/users_controller.rb:30:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:18:28 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:61:in `user_params'
+app/controllers/users_controller.rb:30:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:18:29 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:61:in `user_params'
+app/controllers/users_controller.rb:30:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:19:51 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 676)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:65:in `user_params'
+app/controllers/users_controller.rb:34:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:20:08 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 677)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:66:in `user_params'
+app/controllers/users_controller.rb:35:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:20:12 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 128)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:66:in `user_params'
+app/controllers/users_controller.rb:35:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:20:13 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 128)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:66:in `user_params'
+app/controllers/users_controller.rb:35:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:20:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.0ms | Allocations: 59702)
+
+
+  
+NameError (undefined local variable or method `user_param' for #<UsersController:0x00007f8235395eb8>
+Did you mean?  user_params
+               user_path):
+  
+app/controllers/users_controller.rb:32:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:20:57 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:67:in `user_params'
+app/controllers/users_controller.rb:32:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:21:15 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 95)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:23:51 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 114)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:31:31 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 18ms (ActiveRecord: 0.9ms | Allocations: 3572)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:31:42 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+Completed 422 Unprocessable Entity in 21ms (Views: 0.5ms | ActiveRecord: 1.4ms | Allocations: 6864)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:31:44 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+Completed 422 Unprocessable Entity in 6ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 3256)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:31:49 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+Completed 422 Unprocessable Entity in 11ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 3247)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:32:41 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"teste@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+Completed 422 Unprocessable Entity in 7ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3246)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:32:59 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"tes2te@teste.com\",\n    \"password\": \"teste\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+Completed 422 Unprocessable Entity in 9ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 3248)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:33:09 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"tes2te@teste.com\",\n    \"password\": \"teste2\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+Completed 422 Unprocessable Entity in 7ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 3246)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:33:44 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"t1\",\n    \"password\": \"1\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:42:in `create'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:42:in `create'
+Completed 422 Unprocessable Entity in 25ms (Views: 0.2ms | ActiveRecord: 1.4ms | Allocations: 8159)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:34:25 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"t1\",\n    \"password\": \"1\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+Completed 422 Unprocessable Entity in 39ms (Views: 0.9ms | ActiveRecord: 2.2ms | Allocations: 6860)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:34:35 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"t1asd\",\n    \"password\": \"asda\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+Completed 422 Unprocessable Entity in 9ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 3241)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/users" for ::1 at 2020-09-28 18:36:38 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"t1asd\",\n    \"password\": \"asda\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[36mUser Exists? (2.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+Completed 422 Unprocessable Entity in 20ms (Views: 0.8ms | ActiveRecord: 3.3ms | Allocations: 3240)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:37:00 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[36mUser Exists? (3.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+Completed 422 Unprocessable Entity in 11ms (Views: 0.6ms | ActiveRecord: 3.7ms | Allocations: 3240)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:37:03 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:45:in `create'
+Completed 422 Unprocessable Entity in 7ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 3239)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:37:19 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:40:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:40:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:40:in `create'
+Completed 422 Unprocessable Entity in 28ms (Views: 0.2ms | ActiveRecord: 1.5ms | Allocations: 8775)
+
+
+Started POST "/users" for ::1 at 2020-09-28 18:38:41 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 10ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:68:in `user_params'
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:39:01 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:68:in `user_params'
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:39:18 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"users\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:68:in `user_params'
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:39:23 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:68:in `user_params'
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:41:33 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 6ms (ActiveRecord: 0.0ms | Allocations: 670)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:68:in `user_params'
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:43:28 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 650)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:43:30 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 101)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:43:40 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 650)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:44:03 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/fabionogueiradealmeida/Workspace/OneForAll/app/controllers/users_controller.rb:31: syntax error, unexpected ':', expecting ')'
+  @user = User.new(params[]:email, :password])
+                           ^
+/Users/fabionogueiradealmeida/Workspace/OneForAll/app/controllers/users_controller.rb:31: syntax error, unexpected ']', expecting '.' or &. or :: or '['
+....new(params[]:email, :password])
+...                              ^
+):
+  
+app/controllers/users_controller.rb:31: syntax error, unexpected ':', expecting ')'
+app/controllers/users_controller.rb:31: syntax error, unexpected ']', expecting '.' or &. or :: or '['
+app/controllers/users_controller.rb:31: syntax error, unexpected ':', expecting ')'
+app/controllers/users_controller.rb:31: syntax error, unexpected ']', expecting '.' or &. or :: or '['
+Started POST "/users" for ::1 at 2020-09-28 18:44:15 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 660)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:45:21 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:45:38 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:46:09 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 112)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:46:24 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 614)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:47:05 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 614)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:47:13 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 614)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:48:52 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 636)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:48:56 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 111)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:48:58 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 111)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:58:23 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 634)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:58:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:59:04 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:59:10 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:59:25 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:59:27 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 111)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:59:44 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 112)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:59:53 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 614)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 18:59:57 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 614)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:00:03 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 614)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:00:03 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 112)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started GET "/users" for ::1 at 2020-09-28 19:00:43 -0300
+Processing by UsersController#index as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 125)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:00:47 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 112)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:01:07 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 614)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/users_controller.rb:31:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:01:19 -0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 102)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:01:33 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 40)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:01:52 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 74)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:02:14 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 74)
+
+
+  [1m[36mUser Load (9.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/users" for ::1 at 2020-09-28 19:02:27 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 40)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:02:32 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 668)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:50:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:02:38 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 72)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:02:50 -0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 102)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:03:06 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 141)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:03:09 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 101)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:03:19 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 135)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:03:20 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 101)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:03:21 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 99)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:03:26 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 74)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:03:30 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 133)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:03:41 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 133)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:03:42 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 99)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:03:52 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 133)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:03:53 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 99)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:04:18 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:20:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:04:21 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 113)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:20:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:04:25 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 88)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:04:32 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 88)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:04:36 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 88)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:04:38 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 53)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:04:39 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 53)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:04:57 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 636)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:05:53 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 87)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:06:21 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 8ms (ActiveRecord: 0.5ms | Allocations: 3802)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:07:03 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 11ms (ActiveRecord: 1.3ms | Allocations: 3516)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:07:29 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 1.4ms | Allocations: 5386)
+
+
+  
+NoMethodError (undefined method `has_secure_password' for #<User:0x00007fb4363eaf70>):
+  
+app/controllers/users_controller.rb:23:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:07:57 -0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 658)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: users):
+  
+app/controllers/users_controller.rb:57:in `user_params'
+app/controllers/users_controller.rb:26:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:08:17 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 655)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:57:in `user_params'
+app/controllers/users_controller.rb:26:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:08:35 -0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 7ms (ActiveRecord: 0.7ms | Allocations: 3501)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:08:41 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+Completed 422 Unprocessable Entity in 24ms (Views: 0.3ms | ActiveRecord: 1.3ms | Allocations: 8708)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:09:20 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+Completed 422 Unprocessable Entity in 14ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 8508)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:09:27 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+Completed 422 Unprocessable Entity in 7ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 3240)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:10:38 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[36mUser Exists? (2.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+Completed 422 Unprocessable Entity in 18ms (Views: 0.6ms | ActiveRecord: 2.7ms | Allocations: 3232)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:10:39 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+Completed 422 Unprocessable Entity in 5ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 3234)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:10:56 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"users\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[36mUser Exists? (9.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+Completed 422 Unprocessable Entity in 18ms (Views: 0.3ms | ActiveRecord: 9.3ms | Allocations: 3229)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:11:02 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"users\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+Completed 422 Unprocessable Entity in 10ms (Views: 0.1ms | ActiveRecord: 1.1ms | Allocations: 3228)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:11:05 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"users\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:28:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:28:in `create'
+Completed 422 Unprocessable Entity in 18ms (Views: 0.1ms | ActiveRecord: 1.2ms | Allocations: 7436)
+
+
+Started POST "/users" for ::1 at 2020-09-28 19:11:36 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"users\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 655)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: users):
+  
+app/controllers/users_controller.rb:57:in `user_params'
+app/controllers/users_controller.rb:26:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:27:57 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"users\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 7ms (ActiveRecord: 0.0ms | Allocations: 624)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:28:06 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 107)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:28:14 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 624)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: users):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:28:19 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"users\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 107)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: users):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:28:32 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 624)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:29:00 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 547)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:29:02 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 107)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:29:28 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 526)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: users):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:29:33 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"users\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 107)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: users):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 19:29:42 -0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"users\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 578)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: users):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 20:43:08 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 530)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 20:43:30 -0300
+Processing by UsersController#create as */*
+  Parameters: {"------WebKitFormBoundaryPfq01msKUwETFXdy\r\nContent-Disposition: form-data; name"=>"\"emal\"\r\n\r\nasdasD@asd.com\r\n------WebKitFormBoundaryPfq01msKUwETFXdy\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\nadasd\r\n------WebKitFormBoundaryPfq01msKUwETFXdy--\r\n"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 109)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 20:43:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"------WebKitFormBoundarybEOQeCLmXWum3xiB\r\nContent-Disposition: form-data; name"=>"\"emal\"\r\n\r\nasdasD@asd.com\r\n------WebKitFormBoundarybEOQeCLmXWum3xiB\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\nadasd\r\n------WebKitFormBoundarybEOQeCLmXWum3xiB--\r\n"}
+Completed 400 Bad Request in 21ms (ActiveRecord: 0.0ms | Allocations: 653)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 20:43:45 -0300
+Processing by UsersController#create as */*
+  Parameters: {"------WebKitFormBoundaryzIFLnTX1SBKfsGz1\r\nContent-Disposition: form-data; name"=>"\"emal\"\r\n\r\nasdasD@asd.com\r\n------WebKitFormBoundaryzIFLnTX1SBKfsGz1\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\nadasd\r\n------WebKitFormBoundaryzIFLnTX1SBKfsGz1--\r\n"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 109)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 20:46:53 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 107)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 20:47:09 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 624)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 20:47:48 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 625)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/users" for ::1 at 2020-09-28 20:49:17 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 709)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2020-09-28 20:50:06 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 4ms (ActiveRecord: 0.0ms | Allocations: 95)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:50:31 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 56)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:50:34 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 56)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:50:45 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 661)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:52:in `user_params'
+app/controllers/users_controller.rb:21:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:50:53 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 88)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:51:11 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 89)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:52:16 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 718)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:52:33 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 144)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:52:35 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 110)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:52:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:52:45 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 86)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:52:46 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 86)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:53:42 -0300
+Processing by UsersController#create as */*
+  Parameters: {"\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n"=>"[FILTERED]"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 86)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:53:51 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n"=>"[FILTERED]"}
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.0ms | Allocations: 660)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:55:in `user_params'
+app/controllers/users_controller.rb:24:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:54:28 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 719)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:55:in `user_params'
+app/controllers/users_controller.rb:24:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:54:36 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"12312312312@asjkdh.com.br\",\n    \"password\": \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:55:in `user_params'
+app/controllers/users_controller.rb:24:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:55:58 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  user: {\n    email: '12312312312@asjkdh.com.br',\n    password: 'as123123123da'\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:55:in `user_params'
+app/controllers/users_controller.rb:24:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:56:46 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  user: {\n    email: \"12312312312@asjkdh.com.br\",\n    password: \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:55:in `user_params'
+app/controllers/users_controller.rb:24:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:57:20 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  user: {\n    email: \"12312312312@asjkdh.com.br\",\n    password: \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 655)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:57:55 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  user: {\n    email: \"12312312312@asjkdh.com.br\",\n    password: \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 8ms (ActiveRecord: 0.0ms | Allocations: 653)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:57:57 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  user: {\n    email: \"12312312312@asjkdh.com.br\",\n    password: \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:57:59 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  user: {\n    email: \"12312312312@asjkdh.com.br\",\n    password: \"as123123123da\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:58:25 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \n    email: \"12312312312@asjkdh.com.br\",\n    password: \"as123123123da\"\n  \n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:58:32 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:58:33 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:58:44 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 400 Bad Request in 12ms (ActiveRecord: 0.0ms | Allocations: 654)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 20:58:49 -0300
+Processing by UsersController#create as */*
+  Parameters: {"------WebKitFormBoundaryieJbnSgMvMdNx2hG\r\nContent-Disposition: form-data; name"=>"\"emal\"\r\n\r\nasdasD@asd.com\r\n------WebKitFormBoundaryieJbnSgMvMdNx2hG\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\nadasd\r\n------WebKitFormBoundaryieJbnSgMvMdNx2hG--\r\n"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:00:02 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a2\",\n    \"password\": \"2a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 653)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:00:50 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a2\",\n    \"password\": \"2a\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 644)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:01:15 -0300
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a2\",\n    \"password\": \"2a\"\n  }\n}"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 644)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:02:51 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Error occurred while parsing request parameters.
+Contents:
+
+{
+  user: {
+    email: "a2",
+    password: "2a"
+  }
+}
+  
+ActionDispatch::Http::Parameters::ParseError (783: unexpected token at '{
+  user: {
+    email: "a2",
+    password: "2a"
+  }
+}'):
+  
+actionpack (6.0.3.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{
+  user: {
+    email: "a2",
+    password: "2a"
+  }
+}
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:02:58 -0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"a2", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 160)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:03:19 -0300
+Processing by UsersController#create as */*
+  Parameters: {"email"=>"asda@adsd.com", "senha"=>"aoisdjasd"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:03:22 -0300
+Processing by UsersController#create as */*
+  Parameters: {"{\n  \"user\": {\n    \"email\": \"a2\",\n    \"password\": \"2a\"\n  }\n}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:03:28 -0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"a2", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 126)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:04:09 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"a2", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:04:20 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"a2", "password"=>"[FILTERED]"}}
+Completed 204 No Content in 264ms (ActiveRecord: 0.8ms | Allocations: 3392)
+
+
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:04:37 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"a2", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "a2"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "a2"], ["password_digest", "$2a$12$k.eWbk1bhpdq5F59TG.rqehBzkEPPMEFTaQBJWIovbdf8kIrnS36G"], ["created_at", "2020-09-29 00:04:37.669646"], ["updated_at", "2020-09-29 00:04:37.669646"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 298ms (Views: 2.5ms | ActiveRecord: 6.0ms | Allocations: 7267)
+
+
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/users/login" for ::1 at 2020-09-28 21:19:47 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'login' could not be found for UsersController):
+  
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:131:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:20:03 -0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "a21"], ["password_digest", "$2a$12$9Suer34j8tjopbVfiZvAjeegZ1aU1yJi/BbpR1r5ou/iGwS9tPz2K"], ["created_at", "2020-09-29 00:20:04.057263"], ["updated_at", "2020-09-29 00:20:04.057263"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 200 OK in 519ms (Views: 1.8ms | ActiveRecord: 4.0ms | Allocations: 7370)
+
+
+Started POST "/users/login" for ::1 at 2020-09-28 21:20:34 -0300
+  
+AbstractController::ActionNotFound (The action 'login' could not be found for UsersController):
+  
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:131:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/users/login" for ::1 at 2020-09-28 21:27:17 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 200 OK in 265ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 3746)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-09-28 21:27:33 -0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:32:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:32:in `create'
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:32:in `create'
+Completed 422 Unprocessable Entity in 288ms (Views: 1.3ms | ActiveRecord: 0.5ms | Allocations: 5225)
+
+
+Started POST "/users/login" for ::1 at 2020-09-28 21:27:40 -0300
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 200 OK in 281ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 860)
+
+
+Started POST "/users/login" for ::1 at 2020-09-28 21:28:08 -0300
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 200 OK in 231ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 853)
+
+
+Started POST "/users/login" for ::1 at 2020-09-28 21:28:12 -0300
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 401 Unauthorized in 248ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 747)
+
+
+Started POST "/users/login" for ::1 at 2020-09-28 21:28:19 -0300
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (3.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 200 OK in 264ms (Views: 0.4ms | ActiveRecord: 3.8ms | Allocations: 853)
+
+
