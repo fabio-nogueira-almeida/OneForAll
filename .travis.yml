@@ -1,8 +1,8 @@
 language: ruby
 
 script:
- - bundle exec rspec spec
- - bundle exec cucumber
+#  - bundle exec rspec spec
+#  - bundle exec cucumber
 
 branches:
   only:
