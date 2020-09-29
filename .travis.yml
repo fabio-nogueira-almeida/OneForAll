@@ -1,9 +1,5 @@
 language: ruby
 
-before_install:
-  - bundle config set deployment 'true'
-  - bundle update --bundler
-
 services:
   - postgresql
 
