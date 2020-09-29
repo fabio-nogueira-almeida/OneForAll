@@ -3,7 +3,7 @@ cache: bundler
 
 before_install:
   - bundle config set deployment 'true'
-  - gem install bundler
+  - bundle install
 
 services:
   - postgresql
