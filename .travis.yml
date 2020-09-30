@@ -1,8 +1,14 @@
 language: ruby
 
 services:
-  - mysql
+  - postgresql
+
+before_script:
+  - cp config/database.yml.travis config/database.yml
+  - psql -c 'create database travis_ci_test;' -U postgres
+
 
 branches:
   only:
   - master
+
