@@ -3123,3 +3123,297 @@ puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
   [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(5168794849566389475)[0m
   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/users" for 127.0.0.1 at 2020-09-30 22:15:44 -0300
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.3) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.3) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5168794849566389475)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateWhishes (20201001011051)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (60.1ms)[0m  [1m[35mCREATE TABLE "whishes" ("id" bigserial primary key, "name" character varying, "totalBalance" float, "goalAmount" float, "goalDate" date, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (2.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201001011051"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (8.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5168794849566389475)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/users" for ::1 at 2020-09-30 22:16:12 -0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[35m (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:32:in `create'
+  [1m[36mUser Exists? (6.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:32:in `create'
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "a21"], ["password_digest", "$2a$12$.OE5R6PTy6YhmUW7cof9PuI9rMvAk8uaIwDH1EO5ogoIIzcyiIMOW"], ["created_at", "2020-10-01 01:16:13.271109"], ["updated_at", "2020-10-01 01:16:13.271109"]]
+  ↳ app/controllers/users_controller.rb:32:in `create'
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:32:in `create'
+Completed 200 OK in 529ms (Views: 0.3ms | ActiveRecord: 15.6ms | Allocations: 7486)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:16:32 -0300
+Processing by UsersController#index as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 122)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:16:59 -0300
+Processing by UsersController#index as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:17:00 -0300
+Processing by UsersController#index as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 116)
+
+
+Started POST "/users/login" for ::1 at 2020-09-30 22:17:08 -0300
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 200 OK in 232ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 1078)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:17:47 -0300
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:17:48 -0300
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 116)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:18:17 -0300
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for ::1 at 2020-09-30 22:18:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/apple-touch-icon.png" for ::1 at 2020-09-30 22:18:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-30 22:18:23 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/ruby/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/ruby/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.6ms | Allocations: 411)
+Completed 200 OK in 37ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 2257)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:18:41 -0300
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:18:42 -0300
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 116)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:18:43 -0300
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 116)
+
+
+Started POST "/users" for ::1 at 2020-09-30 22:18:51 -0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:32:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:32:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:32:in `create'
+Completed 422 Unprocessable Entity in 245ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 5482)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:18:59 -0300
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started POST "/users/login" for ::1 at 2020-09-30 22:19:02 -0300
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (4.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 200 OK in 226ms (Views: 0.1ms | ActiveRecord: 4.9ms | Allocations: 973)
+
+
+Started GET "/users" for ::1 at 2020-09-30 22:19:10 -0300
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/whishes" for ::1 at 2020-09-30 22:20:33 -0300
+Processing by WhishesController#index as */*
+  [1m[36mWhish Load (7.2ms)[0m  [1m[34mSELECT "whishes".* FROM "whishes"[0m
+  ↳ app/controllers/whishes_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 3.9ms | ActiveRecord: 10.6ms | Allocations: 1523)
+
+
+Started GET "/whishes" for ::1 at 2020-09-30 22:21:04 -0300
+Processing by WhishesController#index as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 148)
+
+
+Started POST "/users/login" for ::1 at 2020-09-30 22:21:11 -0300
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 200 OK in 242ms (Views: 0.2ms | ActiveRecord: 13.4ms | Allocations: 3746)
+
+
+Started GET "/whishes" for ::1 at 2020-09-30 22:21:30 -0300
+Processing by WhishesController#index as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 113)
+
+
+Started GET "/whishes" for ::1 at 2020-09-30 22:21:58 -0300
+Processing by WhishesController#index as */*
+  Parameters: {"whish"=>{}}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 1.0ms | Allocations: 113)
+
+
+Started POST "/users/login" for ::1 at 2020-09-30 22:29:23 -0300
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"email"=>"a21", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "a21"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 200 OK in 238ms (Views: 0.6ms | ActiveRecord: 0.7ms | Allocations: 1123)
+
+
+Started GET "/whishes" for ::1 at 2020-09-30 22:29:28 -0300
+Processing by WhishesController#index as */*
+  Parameters: {"whish"=>{}}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32:in `load_current_user!'
+  [1m[36mWhish Load (5.4ms)[0m  [1m[34mSELECT "whishes".* FROM "whishes"[0m
+  ↳ app/controllers/whishes_controller.rb:9:in `index'
+Completed 200 OK in 22ms (Views: 1.6ms | ActiveRecord: 7.7ms | Allocations: 2002)
+
+
+Started GET "/whishes" for ::1 at 2020-09-30 22:29:33 -0300
+Processing by WhishesController#index as */*
+  Parameters: {"whish"=>{}}
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 112)
+
+
+Started GET "/whishes" for ::1 at 2020-09-30 22:29:35 -0300
+Processing by WhishesController#index as */*
+  Parameters: {"whish"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32:in `load_current_user!'
+  [1m[36mWhish Load (0.2ms)[0m  [1m[34mSELECT "whishes".* FROM "whishes"[0m
+  ↳ app/controllers/whishes_controller.rb:9:in `index'
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.6ms | Allocations: 1796)
+
+

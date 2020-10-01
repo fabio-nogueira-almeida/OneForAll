@@ -1,0 +1,2 @@
+class Whish < ApplicationRecord
+end

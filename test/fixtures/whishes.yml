@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  totalBalance: 1.5
+  goalAmount: 1.5
+  goalDate: 2020-09-30
+
+two:
+  name: MyString
+  totalBalance: 1.5
+  goalAmount: 1.5
+  goalDate: 2020-09-30
