@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_01_011051) do
+ActiveRecord::Schema.define(version: 2020_10_03_225708) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "backgrounds", force: :cascade do |t|
+    t.string "small"
+    t.string "regular"
+    t.string "full"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email"
@@ -27,9 +35,12 @@ ActiveRecord::Schema.define(version: 2020_10_01_011051) do
     t.string "name"
     t.float "totalBalance"
     t.float "goalAmount"
-    t.date "goalDate"
+    t.string "goalDate"
+    t.bigint "background_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["background_id"], name: "index_whishes_on_background_id"
   end
 
+  add_foreign_key "whishes", "backgrounds"
 end

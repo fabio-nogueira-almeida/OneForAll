@@ -5,6 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # ruby '2.5.3'
 
 gem 'jwt'
+gem 'active_model_serializers'
 
 # Use postgres as the database for Active Record
 gem 'pg'

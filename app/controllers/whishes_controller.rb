@@ -5,7 +5,6 @@ class WhishesController < ApplicationController
   # GET /whishes
   def index
     @whishes = Whish.all
-
     render json: @whishes
   end
 

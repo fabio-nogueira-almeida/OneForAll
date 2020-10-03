@@ -3,8 +3,9 @@ class CreateWhishes < ActiveRecord::Migration[6.0]
     create_table :whishes do |t|
       t.string :name
       t.float :totalBalance
-      t.float :goalAmount
-      t.date :goalDate
+      t.float :totalAmount
+      t.string :goalDate
+      t.references :background, null: false, foreign_key: true
 
       t.timestamps
     end

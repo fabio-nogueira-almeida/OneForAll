@@ -5,4 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.create(email: 'pilot@teste.com.br', password: 'pilotTest')o
+User.create(email: 'pilot@teste.com.br', password: 'pilotTest')
+background01 = Background.create(small: "a", regular: "b", full: "asd")
+
+Whish.create(name: "asd", totalBalance: 123123, goalAmount: 123, goalDate: "12/12/2012", background: background01)
