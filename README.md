@@ -19,8 +19,10 @@ The idea is to build an service that will provide many informations for sample a
 ## Features
 
 - Authentication token based with jwt
+- List of itens
+- Detail of item
 
 ## To Do
 
-- List of itens
-- Detail of item
+- Unit Tests
+- Versioning
