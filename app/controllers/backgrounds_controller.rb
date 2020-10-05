@@ -1,5 +1,5 @@
 class BackgroundsController < ApplicationController
-  before_action :authenticate_request!
+  # before_action :authenticate_request!
   before_action :set_background, only: [:show, :update, :destroy]
 
   # GET /backgrounds

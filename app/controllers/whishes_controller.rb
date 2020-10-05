@@ -1,5 +1,5 @@
 class WhishesController < ApplicationController
-  before_action :authenticate_request!
+  # before_action :authenticate_request!
   before_action :set_whish, only: [:show, :update, :destroy]
 
   # GET /whishes
