@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :authenticate_request!, except: [:create, :login] # Exclude this route from authentication
+  before_action :authenticate_request!, only: [:index, :show, :update, :destroy] # Exclude this route from authentication
   before_action :set_user, only: [:show, :update, :destroy]
 
   def login
