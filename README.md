@@ -26,3 +26,4 @@ The idea is to build an service that will provide many informations for sample a
 
 - Unit Tests
 - Versioning
+- Rename whish to wish names
