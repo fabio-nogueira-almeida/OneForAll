@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2020_10_03_225708) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
-  create_table "wishes", force: :cascade do |t|
+  create_table "whishes", force: :cascade do |t|
     t.string "name"
     t.float "totalBalance"
     t.float "goalAmount"
@@ -42,5 +42,5 @@ ActiveRecord::Schema.define(version: 2020_10_03_225708) do
     t.index ["background_id"], name: "index_wishes_on_background_id"
   end
 
-  add_foreign_key "wishes", "backgrounds"
+  add_foreign_key "whishes", "backgrounds"
 end
