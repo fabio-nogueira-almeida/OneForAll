@@ -1,4 +1,4 @@
 class WhishSerializer < ActiveModel::Serializer
   belongs_to :background
-  attributes :name, :totalBalance, :goalAmount, :goalDate
+  attributes :id, :name, :totalBalance, :goalAmount, :goalDate
 end
