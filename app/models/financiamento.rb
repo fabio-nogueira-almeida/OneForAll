@@ -1,0 +1,2 @@
+class Financiamento < ApplicationRecord
+end

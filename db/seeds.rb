@@ -80,3 +80,12 @@ Whish.create(name: "Milhãozinho",
     goalAmount: 1000000, 
     goalDate: "2037-01-04", 
     background: background08)
+
+Financiamento.create(data: Time.zone.now, 
+    tipo: "Apartamento",
+    valor: 430.000,
+    nome: "Ariel Passarinho Mansilha",
+    contato: "11 9876 7890",    
+    endereco: "Rua Casa do ator. 294. Vila Olímpia",
+    email: "ariel.passarinho@gmail.fake.br"
+    )
