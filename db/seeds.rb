@@ -87,5 +87,5 @@ Financiamento.create(data: Time.zone.now,
     nome: "Ariel Passarinho Mansilha",
     contato: "11 9876 7890",    
     endereco: "Rua Casa do ator. 294. Vila Olímpia",
-    email: "ariel.passarinho@gmail.fake.br"
+    email: "gustavo.liceu@gmail.com"
     )
